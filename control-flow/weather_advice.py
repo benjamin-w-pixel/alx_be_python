@@ -9,3 +9,11 @@ elif weather.lower() == "cold":
     print("Make sure to wear a warm coat and a scarf.")
 else:
     print("Sorry, I don't have recommendations for this weather.")
+
+#sunny -> Wear a t-shirt and sunglasses.
+
+#Rainy -> Don't forget your umbrella and a raincoat. (Check case-insensitivity)
+
+#cold -> Make sure to wear a warm coat and a scarf.
+
+#windy -> Sorry, I don't have recommendations for this weather.
