@@ -39,3 +39,17 @@ match operation:
             print(f"The result is {result}.")
     case _: # This is the default case for any other input
         print("Invalid operation. Please choose from +, -, *, /.")
+
+#10, 5, * -> The result is 50.0.
+
+#10, 0, / -> Cannot divide by zero.
+
+#7, 3, + -> The result is 10.0.
+
+#15, 4, - -> The result is 11.0.
+
+#2.5, 2, / -> The result is 1.25.
+
+#abc, 5, + -> Invalid input for the first number. Please enter a valid number.
+
+#5, 5, ^ -> Invalid operation. Please choose from +, -, *, /.
