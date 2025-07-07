@@ -74,4 +74,11 @@ class Library:
             book (Book): A Book, EBook, or PrintBook instance
         """
         if isinstance(book, Book):
-            self.books
+            self.books.append(book)  # Using append method
+        else:
+            raise TypeError("Only Book objects can be added to the library")
+    
+    def list_books(self):
+        """Print details of all books in the library."""
+        for book in self.books:
+            print(book)  # This will call the appropriate __str__ method
