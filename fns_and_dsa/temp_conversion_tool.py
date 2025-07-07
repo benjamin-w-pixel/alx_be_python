@@ -4,7 +4,7 @@
 # At the top of your script, define two global variables
 # FAHRENHEIT_TO_CELSIUS_FACTOR and CELSIUS_TO_FAHRENHEIT_FACTOR.
 FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5 # Re-typed this line carefully
 
 # Implement Conversion Functions:
 def convert_to_celsius(fahrenheit):
