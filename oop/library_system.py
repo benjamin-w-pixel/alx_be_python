@@ -66,7 +66,7 @@ class Library:
         """Initialize a Library with an empty book collection."""
         self.books = []
     
-    def append(self, book):  # Changed from add_book to append
+    def add_book(self, book):  # Changed back to add_book to match main.py
         """
         Add a book to the library collection.
         
@@ -74,7 +74,7 @@ class Library:
             book (Book): A Book, EBook, or PrintBook instance
         """
         if isinstance(book, Book):
-            self.books.append(book)
+            self.books.append(book)  # Using append internally
         else:
             raise TypeError("Only Book objects can be added to the library")
     
@@ -82,7 +82,7 @@ class Library:
         """Print details of all books in the library."""
         for book in self.books:
             print(book)
-
+            
             # main.py
 from library_system import Book, EBook, PrintBook, Library
 
